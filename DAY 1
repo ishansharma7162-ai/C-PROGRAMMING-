@@ -1,0 +1,8 @@
+#include <stdio.h>  // 1. Header file include karna
+
+int main() {        // 2. Main function (yahan se program shuru hota hai)
+    
+    printf("Hello World!"); // 3. Screen par message print karne ke liye
+    
+    return 0;       // 4. Program ko khatam karne ke liye
+}
