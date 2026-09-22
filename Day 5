@@ -16,3 +16,62 @@ int main() {
     return 0;
 }
 
+#include <stdio.h>
+
+int main() {
+    int length, breadth;
+
+    printf("Enter length: ");
+    scanf("%d", &length);
+
+    printf("Enter breadth: ");
+    scanf("%d", &breadth);
+
+    printf("Area of rectangle : %d\n", length * breadth);
+    return 0;
+}
+
+#include <stdio.h>
+
+int main() {
+    int radius = 6;
+    float pi = 3.14;
+
+    float area = pi * radius * radius;
+    printf("Radius of circle: %f\n", area);
+    return 0;
+}
+#include <stdio.h>
+
+int main() {
+    int radius = 10;
+    int height = 120;
+    float pi = 3.14;
+
+    float volume = pi * radius * radius * height;
+    printf("volume of Cylinder : %f\n", volume);
+    return 0;
+}
+#include <stdio.h>
+
+int main() {
+    float principal = 1000;
+    float rate = 5;
+    int time = 2; // Time in years
+
+    float simpleInterest = (principal * rate * time) / 100;
+    printf("Simple Interest hai: %f\n", simpleInterest);
+
+    return 0;
+}#include <stdio.h>
+
+int main() {
+    float principal = 1000;
+    float rate = 5;
+    int time = 2; // Time in years
+
+    float simpleInterest = (principal * rate * time) / 100;
+    printf("Simple Interest hai: %f\n", simpleInterest);
+
+    return 0;
+}
