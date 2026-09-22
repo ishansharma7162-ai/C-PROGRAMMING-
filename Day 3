@@ -3,3 +3,13 @@ int main(){
     printf("Hello world!\n");
     printf("I am learning C programming");
     return 0;}
+#include<stdio.h>
+int main(){
+    int a = 10;
+    float b = 5.5;
+    char grade = 'A';
+    printf("value of a is: %d\n", a);
+    printf("value of b is: %f\n", b);
+    printf("grade is: %c\n", grade);
+    
+}
