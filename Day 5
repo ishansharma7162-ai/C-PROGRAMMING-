@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+    int side1 = 100;
+    int side2 = 100;
+    int area = side1 * side2;
+    printf("Area of square: %d\n", area);
+    return 0;}
+#include <stdio.h>
+
+int main() {
+    int length = 5;
+    int breadth = 10;
+    int area = length * breadth;
+
+    printf("Rectangle ka area hai: %d\n", area);
+    return 0;
+}
+
