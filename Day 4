@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    int a, b;
+    // Give the instruction to the user 
+    printf("First no:");
+    scanf("%d", &a);
+    printf("Second no:");
+    scanf("%d", &b);
+    printf("sum of both no: %d\n", a+b);
+    
+}
