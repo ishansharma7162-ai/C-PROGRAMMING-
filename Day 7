@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+int main() {
+    int age = 19;
+
+    if (age >= 18) { // Agar condition true hui [00:01:45]
+        printf("Aap vote de sakte hain.\n");
+    } 
+    else { // Agar condition false hui [00:02:15]
+        printf("Aap vote nahi de sakte.\n");
+    }
+
+    return 0;
+}
+#include <stdio.h>
+
+int main() {
+    int age;
+    printf("Apni age daalo: ");
+    scanf("%d", &age);
+
+    if (age >= 60) {
+        printf("Aap Senior Citizen hain.\n");
+    }
+    else if (age >= 18) {
+        printf("Aap Adult hain.\n");
+    }
+    else {
+        printf("Aap Child/Teenager hain.\n");
+    }
+
+    return 0;
+}
