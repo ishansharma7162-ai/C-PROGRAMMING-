@@ -1,0 +1,44 @@
+#include <stdio.h>
+int add(int a,int b);
+int main(){
+    int num1,num2,result;
+    printf("enter the first no.:");
+    scanf("%d",&num1);
+    printf("enter the second no.:");
+    scanf("%d",&num2);
+    result = add(num1,num2);
+    printf("Sum of both no.:%d\n",result);
+    return 0;
+    }
+int add(int a,int b){
+    return a + b;
+}
+#include <stdio.h>
+int square(int a);
+int main(){
+    int num,result;
+    printf("enter the no.:");
+    scanf("%d",&num);
+    result = square(num);
+    printf("square ofno.:%d\n",result);
+    return 0;
+    }
+int add(int a){
+    return a * a;
+}
+#include <stdio.h>
+
+int factorial(int n);
+int main() {
+    int num = 5;
+    printf("Factorial of %d is: %d\n", num, factorial(num));
+    return 0;
+}
+int factorial(int n) {
+    if (n == 1 || n == 0) {
+        return 1;
+    }
+    else {
+        return n * factorial(n - 1);
+    }
+}
