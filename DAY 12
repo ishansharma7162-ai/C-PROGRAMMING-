@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+int main() {
+    int choice;
+    float value, result;
+
+    while(1){
+    printf("\n1. kms to miles\n");
+    printf("2. inches to foot\n");
+    printf("3. cms to inches\n");
+    printf("0. Exit\n");
+    printf("enter choice (1 or 2 or 3): ");
+    scanf("%d", &choice);
+    if (choice == 0) {
+            printf("Program band ho raha hai...\n");
+            break;
+    }
+    switch (choice) {
+        case 1:
+            printf("enter kms: ");
+            scanf("%f", &value);
+            result = value * 0.621371;
+            printf("%.2f kms = %.2f miles\n", value, result);
+            break;
+
+        case 2:
+            printf("enter inches: ");
+            scanf("%f", &value);
+            result = value * 0.0833333;
+            printf("%.2f inches = %.2f foot\n", value, result);
+            break;
+        case 3:
+            printf("enter cms: ");
+            scanf("%f", &value);
+            result = value * 0.393701;
+            printf("%.2f cms = %.2f inches\n", value, result);
+            break;
+
+        default:
+            printf("Wrong choice!\n");
+    }
+    }
+   return 0;
+}
